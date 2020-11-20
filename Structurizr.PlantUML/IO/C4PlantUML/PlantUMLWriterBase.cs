@@ -171,6 +171,8 @@ namespace Structurizr.IO.C4PlantUML
                 .Replace("-", "")
                 .Replace("[", "")
                 .Replace("]", "")
+                .Replace("(", "")
+                .Replace(")", "")
                 .Replace("/", "__");
             if (hash.HasValue)
             {
